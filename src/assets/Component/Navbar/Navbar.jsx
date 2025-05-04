@@ -23,11 +23,11 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className={`mobile-menu ${toggle ? "open" : ""}`}>
+      <div className={`mobile-menu ${toggle ? "open" : ""} bg-gradient-to-t from-teal-200 via-teal-100 to-teal-100 shadow-2xl`}>
         <div className="navbar-links font-bold text-teal-700">
           <div className="flex items-center justify-center">
             <img src={logo} className="w-16" />
-            <h1 className="font-bold  text-teal-700 text-3xl text-center p-4">Beauty</h1></div>
+            <h1 className="font-bold  text-teal-700 text-3xl text-center p-4">Relaxo</h1></div>
           <Link to="/" smooth={true} duration={1000} className="text-xl p-4 block" onClick={toggleButton}>
             Home
           </Link>
@@ -47,8 +47,9 @@ export default function Navbar() {
       <div className="flex justify-between items-center bg-white/10 backdrop-blur-3xl">
         <div className="hidden md:block w-full ">
           <nav className="navbar flex justify-between items-center">
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-center items-center">
               <img src={logo} className="w-16" />
+              <h1 className="font-bold  text-teal-700 text-3xl text-center">Relaxo</h1>
             </div>
             <div className="navbar-links lg:flex justify-center items-center gap-5">
               <Link to="/" smooth={true} duration={1000} className="text-xl text-gray-700 hover:underline">
