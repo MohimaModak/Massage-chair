@@ -16,9 +16,9 @@ export default function Navbar() {
         <div className="md:hidden  sm:block text-sm p-2" onClick={toggleButton}>
           <div className="cursor-pointer">
             <div>
-              <div className="w-8 h-1  bg-red-400"></div>
-              <div className="w-8 h-1 mt-1  bg-red-400"></div>
-              <div className="w-8 h-1 mt-1  bg-red-400"></div>
+              <div className="w-8 h-1 bg-teal-600"></div>
+              <div className="w-8 h-1 mt-1 bg-teal-600"></div>
+              <div className="w-8 h-1 mt-1 bg-teal-600"></div>
             </div>
           </div>
         </div>
