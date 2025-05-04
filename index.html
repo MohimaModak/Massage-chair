@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Massage Chair | Feel the Comfort</title>
+
+    <!-- Import Google Fonts: Manrope (body), Playfair Display (headings) -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              manrope: ['Manrope', 'sans-serif'],
+              playfair: ['Playfair Display', 'serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      h1 {
+        @apply font-playfair;
+      }
+    </style>
+  </head>
+
+  <body class="font-manrope bg-gray-50 text-gray-800">
+    <div id="root">
+   
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
