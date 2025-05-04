@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div className="fixed w-full text-white font-medium top-0 z-50 shadow-sm">
       <div className="flex justify items-center">
-        <div className="md:hidden  sm:block text-sm p-2" onClick={toggleButton}>
+        <div className="md:hidden  sm:block text-sm p-4" onClick={toggleButton}>
           <div className="cursor-pointer">
             <div>
               <div className="w-8 h-1 bg-teal-600"></div>
